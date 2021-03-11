@@ -1,0 +1,22 @@
+{
+  "require": {
+    "slim/slim": "4.*",
+    "slim/psr7": "^1.1",
+    "php-di/php-di": "^6.2",
+    "tuupola/slim-jwt-auth": "^3.4",
+    "respect/validation": "^2.0"
+  },
+  "autoload": {
+    "classmap": [
+      "./"
+    ],
+    "psr-4": {
+      "Modelagem\\Middleware\\": "/middleware",
+      "Modelagem\\Controller\\": "/controller",
+      "Modelagem\\Model\\": "/model",
+      "Modelagem\\Logic\\": "/logic",
+      "Modelagem\\Validation\\Rule\\": "/validation/rule",
+      "Modelagem\\Validation\\Exception\\": "/validation/exception"
+    }
+  }
+}

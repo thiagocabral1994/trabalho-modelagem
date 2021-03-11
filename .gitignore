@@ -1,0 +1,5 @@
+docker/_mysql
+*.bak
+send.sh
+frontend/node_modules
+

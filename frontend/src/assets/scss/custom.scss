@@ -1,0 +1,17 @@
+// Bootstrap-Vue
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+@import "../../../node_modules/bootstrap-vue/src/index.scss";
+
+//Vue Multiselect
+@import "../../../node_modules/vue-multiselect/dist/vue-multiselect.min.css";
+
+//---------------------------------------------------------------------------
+/*
+* Classes Especificas
+*/
+.errorMessage {
+  width: 100%;
+  margin-top: 0.25rem;
+  font-size: 80%;
+  color: #dc3545;
+}
